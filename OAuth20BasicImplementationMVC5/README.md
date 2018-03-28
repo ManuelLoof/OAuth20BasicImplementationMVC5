@@ -158,7 +158,7 @@ In Visual Studio, create a new view to add the sign-in button and display user i
 2. Name it Index.
 3. Add the following HTML, which includes the sign-in button, to the file:
 
-```c#
+```html
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -242,7 +242,7 @@ In Visual Studio, create a new view to display the user's claims in a web page:
 2. Name it Index.
 3. Add the following HTML to the file:
 
-```c#
+```html
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
@@ -283,7 +283,7 @@ In this step, you will configure your project to use SSL, and then use the SSL U
 
 4. Add the following in web.config file located in root’s folder, under section configuration\appSettings:
 
-```c#
+```xml
 <add key="ClientId" value="" />
 <add key="RedirectUri" value="http://localhost" />
 <add key="Tenant" value="common" />
